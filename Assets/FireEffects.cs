@@ -26,8 +26,8 @@ public class GunfireEffect : MonoBehaviour
                 && capabilities.supportsImpulse)
             {
                 uint channel = 0;
-                float amplitude = 1.0f;
-                float duration = 1.0f;
+                float amplitude = 0.6f;
+                float duration = 0.3f;
                 device.SendHapticImpulse(channel, amplitude, duration);
             }
         }
