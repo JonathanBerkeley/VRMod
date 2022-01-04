@@ -5,24 +5,19 @@ using UnityEngine;
 public class DrawerAnimation : MonoBehaviour
 {
     public Vector3 to;
-    
-    private Vector3 from;
-    private bool _enabled = false;
+    public Vector3 from;
 
-    private void Awake()
-    {
-        from = gameObject.transform.position;
-    }
+    private bool _enabled = false;
 
     private void Update()
     {
-        if (enabled)
+        if (_enabled)
         {
-            Vector3.MoveTowards(from, to, 1.0f * Time.deltaTime);
+            gameObject.transform.localPosition = to;
         }
         else
         {
-            Vector3.MoveTowards(to, from, 1.0f * Time.deltaTime);
+            gameObject.transform.localPosition = from;
         }
     }
 
