@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Shootable
+  - lightswitch
+  - Box
+  - Metal
+  - ExplosiveBarrel
+  - Target
+  - Bot
   layers:
   - Default
   - TransparentFX

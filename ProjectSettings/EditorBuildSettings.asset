@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/__devroot/Scenes/VRMod2.unity
+    guid: ad29bb1962474f947b1b70799f4c9c64
+  - enabled: 1
+    path: Assets/__devroot/Scenes/VRModFPS.unity
+    guid: b5e8361b98a895842a96940a9d93ff5d
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8fccb80e6c9a84389a75f2c1ed4d786d,
       type: 2}
